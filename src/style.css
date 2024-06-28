@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#ai-icon-container {
+  @apply p-2 absolute right-4 bottom-4 bg-white shadow-[0px_4px_6px_-1px_#0000001A_0px_2px_4px_-2px_#0000001A] z-10 cursor-pointer rounded-full;
+}
